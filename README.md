@@ -1,10 +1,10 @@
 
-###Automatical start
+### Automatical start
 ````shell
 sudo ./start_trainer.sh 
 ````
 
-###Manual start
+### Manual start
 ```shell
 docker pull postgres:latest
 
