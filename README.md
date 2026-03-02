@@ -19,7 +19,7 @@ docker exec -it psql_trainer-c /bin/bash
 psql -U trainee -d trainer
 ```
 
-### SQL гид
+### SQL trainer
 
 ```postgresql
 SELECT table_name FROM information_schema.tables WHERE table_name ILIKE '%catalog%' ORDER BY ASC 
